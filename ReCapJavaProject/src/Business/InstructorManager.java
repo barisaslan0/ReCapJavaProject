@@ -3,15 +3,16 @@ package Business;
 import Entities.User;
 
 public class InstructorManager extends UserManager {
+
 	public void add(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " Baþarýyla Eklendi.");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " Eðitmen Baþarýyla Eklendi.");
 	}
 
 	public void update(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " Baþarýyla Güncellendi");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " Eðitmen Baþarýyla Güncellendi");
 	}
 
 	public void delete(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " Baþarýyla Silindi.");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " Eðitmen Baþarýyla Silindi.");
 	}
 }

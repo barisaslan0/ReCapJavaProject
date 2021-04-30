@@ -1,5 +1,7 @@
 package ConsoleUI;
 
+import Business.InstructorManager;
+import Business.StudentManager;
 import Business.UserManager;
 import Entities.Instructor;
 import Entities.Student;
@@ -24,13 +26,23 @@ public class Main {
 		student.setDepartment("Bilgisayar Mühendisliği");
 
 		UserManager userManager = new UserManager();
-		userManager.add(instructor);
+		userManager.add(instructor); 
 		userManager.update(instructor);
 		userManager.delete(instructor);
-
-		userManager.add(student);
+		userManager.add(student); 
 		userManager.update(student);
 		userManager.delete(student);
+
+		InstructorManager instructorManager = new InstructorManager();
+		instructorManager.add(instructor);
+		instructorManager.update(instructor);
+		instructorManager.delete(instructor);
+
+		StudentManager studentManager = new StudentManager();
+		studentManager.add(student);
+		studentManager.update(student);
+		studentManager.delete(student);
+
 	}
 
 }
