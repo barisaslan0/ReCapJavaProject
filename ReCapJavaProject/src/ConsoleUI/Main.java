@@ -20,7 +20,7 @@ public class Main {
 		student.setFirstName("Barış");
 		student.setLastName("Aslan");
 		student.setEmail("baris@baris.com");
-		student.setUniversity("Çanakkale Onsekiz Mart");
+		student.setUniversity("Çanakkale Onsekiz Mart Ü");
 		student.setDepartment("Bilgisayar Mühendisliği");
 
 		UserManager userManager = new UserManager();
