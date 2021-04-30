@@ -1,2 +1,2 @@
 # ReCapJavaProject
-Learn Java
+Practise Class-Inheritance
